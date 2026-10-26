@@ -9,7 +9,6 @@
 */
 using System;
 using System.ComponentModel;
-
 class Program
 {
     const int RANDOM_SEED = 4000;
@@ -29,7 +28,8 @@ class Program
             Console.WriteLine ("2. The Dice Table");
             Console.WriteLine ("3. The Score Report");
             Console.WriteLine ("4. All Three");
-            Console.WriteLine ("5. Quit");;
+            Console.WriteLine ("5. Quit");
+;
             choice = Convert.ToInt32(Console.ReadLine());
         }
             // do while loop forces the program to ask for a menu at the minimum of one times.
@@ -66,6 +66,7 @@ class Program
             case 5: 
             Console.WriteLine("Farewell");
             break;
+           
         }   
     }
 
